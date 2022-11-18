@@ -1,5 +1,5 @@
 body{
-    background-color: #a0a2f3;
+    background-color: #76eb86;
 
     }
 
@@ -18,16 +18,17 @@ img{
     }
 
 p{
+    font-size: 20px;
     border: 2px solid powderblue;
     padding: 30px;
 
 }
 
 h2{
-    font-size: 20px;
+    font-size: 40px;
 }
 
 .skills{
-    font-size: 18px;
+    font-size: 20px;
     color:#000000;
 }
