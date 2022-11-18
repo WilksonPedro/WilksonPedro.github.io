@@ -1,13 +1,21 @@
 body{
     background-color: #a0a2f3;
-    back
-}
+
+    }
 
 h1{
-   font-size:130px; color: #70e000;
+   font-size:130px; color: #3500f5;
    font-family: 'Lobster', cursive;
+   display: block;   
+   text-align: center;
 }
 
+img{
+    border-radius: 50%;
+    display: block;
+    margin: 0px auto;
+    
+    }
 
 p{
     border: 2px solid powderblue;
@@ -21,5 +29,5 @@ h2{
 
 .skills{
     font-size: 18px;
-    color:#70e000;
+    color:#000000;
 }
