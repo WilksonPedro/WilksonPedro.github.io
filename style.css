@@ -1,11 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap');
+/*sempre colocar os imports acima de todo o documentos css*/
 * {
+    list-style: none;
     padding: 0;
     margin: 0;
 }
 
 /*começo do cabeçalho*/
 body {
-    background-image: linear-gradient(to right, #7209b7, #560bad, #480ca8, #3a0ca3,#3f37c9);
+    background: #03001e;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #fdeff9, #ec38bc, #7303c0, #03001e);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #fdeff9, #ec38bc, #7303c0, #03001e);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
 }
 
 #name {
@@ -13,4 +23,14 @@ body {
     font-size: 80px;
     text-align: center;
     color: aliceblue;
+}
+
+.content p{
+    font-family: josefin sans;
+    font-size: 1.2rem; /*final rem sempre multiplica o tamanho da fonte padrao */
+
+}
+
+.content ul{
+    font-size: 1.5rem;
 }
