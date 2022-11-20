@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap');
+
 /*sempre colocar os imports acima de todo o documentos css*/
 * {
     list-style: none;
@@ -8,13 +9,11 @@
 
 /*começo do cabeçalho*/
 body {
-    background: #03001e;
     /* fallback for old browsers */
     background: -webkit-linear-gradient(to top, #fdeff9, #ec38bc, #7303c0, #03001e);
     /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to top, #fdeff9, #ec38bc, #7303c0, #03001e);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
 
 }
 
@@ -25,12 +24,46 @@ body {
     color: aliceblue;
 }
 
-.content p{
+.content p {
     font-family: josefin sans;
-    font-size: 1.2rem; /*final rem sempre multiplica o tamanho da fonte padrao */
+    font-size: 1.2rem;
+    /*final rem sempre multiplica o tamanho da fonte padrao */
 
 }
 
-.content ul{
+.content ul {
     font-size: 1.5rem;
+
+}
+
+.perfil {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 2rem;
+    gap: 2rem;
+}
+
+.descrição {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 2rem;
+
+}
+
+.img {
+    display: flex;
+    border-radius: 100%;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0575E6, #00F260);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0575E6, #00F260);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.img img {
+    border-radius: 50%;
+    padding: 2rem;
+    height: 350px;
+    width: 350px;
 }
