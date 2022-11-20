@@ -9,14 +9,37 @@
 
 /*começo do cabeçalho*/
 body {
+    height: 100%;
+    width: 100%;
+    background: #ff00cc;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to top, #fdeff9, #ec38bc, #7303c0, #03001e);
+    background: -webkit-linear-gradient(to right, #333399, #ff00cc);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to top, #fdeff9, #ec38bc, #7303c0, #03001e);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
+    background: linear-gradient(to right, #333399, #ff00cc);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
 
+main{
+height: 90%;
+width: 99%;
+margin: auto;
+
+}
+
+#navegation{
+    display: flex;
+    text-align: center;
+    font-size: 2.4rem;
+    justify-content: center;
+}
+
+#navegation li a{
+    margin: 0px 5px;
+    color: #f5f5f6;
+    text-decoration: none;
+
+}
 #name {
     font-family: 'Satisfy', cursive;
     font-size: 80px;
@@ -66,4 +89,8 @@ body {
     padding: 2rem;
     height: 350px;
     width: 350px;
+}
+
+.list li[1,3,5]{
+
 }
