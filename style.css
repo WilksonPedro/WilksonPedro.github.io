@@ -2,6 +2,7 @@
 
 /*sempre colocar os imports acima de todo o documentos css*/
 * {
+    box-sizing: border-box;
     list-style: none;
     padding: 0;
     margin: 0;
@@ -9,8 +10,7 @@
 
 /*começo do cabeçalho*/
 body {
-    height: 100%;
-    width: 100%;
+    height: 100vmin;
     background: #FC466B;
     /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #3F5EFB, #FC466B);
@@ -20,14 +20,8 @@ body {
 
 }
 
-main {
-    height: 90%;
-    width: 99%;
-    margin: auto;
-
-}
-
 #navegation {
+    color: aliceblue;
     display: flex;
     text-align: center;
     font-size: 2.4rem;
@@ -41,6 +35,8 @@ main {
 
 }
 
+#navigation:hover {}
+
 #name {
     font-family: 'Satisfy', cursive;
     font-size: 80px;
@@ -49,6 +45,7 @@ main {
 }
 
 .content p {
+    color: aliceblue;
     font-family: josefin sans;
     font-size: 1.2rem;
     /*final rem sempre multiplica o tamanho da fonte padrao */
@@ -68,6 +65,7 @@ main {
 }
 
 .descrição {
+    color: aliceblue;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -75,19 +73,14 @@ main {
 
 }
 
-.descrição h2 {
-    font-size: 30px;
-
+.descrição p {
+    font-size: 23px;
 }
 
-.img {
-    display: flex;
-    border-radius: 100%;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #0575E6, #00F260);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #0575E6, #00F260);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+.descrição h2 {
+    color: aliceblue;
+    font-size: 30px;
+
 }
 
 .img img {
@@ -95,15 +88,47 @@ main {
     padding: 2rem;
     height: 350px;
     width: 350px;
+    background: #FEAC5E;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 .qualidade {
+    color: aliceblue;
     display: flex;
     justify-content: center;
     gap: 5rem;
     margin: 10px;
 }
 
-.soft{
+.soft {
+    color: aliceblue;
     font-size: 2rem;
+}
+
+.referencia {
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+    align-items: center;
+    color: aliceblue;
+}
+
+.nave {
+    display: flex;
+    text-align: center;
+    font-size: 1.5rem;
+    justify-content: center;
+    gap: 2rem;
+
+}
+
+.nave a{
+    text-decoration: none;
+        color: aliceblue;
+
 }
