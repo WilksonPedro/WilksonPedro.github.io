@@ -26,6 +26,7 @@ body {
     text-align: center;
     font-size: 2.4rem;
     justify-content: center;
+
 }
 
 #navegation li a {
@@ -34,8 +35,6 @@ body {
     text-decoration: none;
 
 }
-
-#navigation:hover {}
 
 #name {
     font-family: 'Satisfy', cursive;
@@ -48,6 +47,7 @@ body {
     color: aliceblue;
     font-family: josefin sans;
     font-size: 1.2rem;
+
     /*final rem sempre multiplica o tamanho da fonte padrao */
 
 }
@@ -64,22 +64,24 @@ body {
     gap: 2rem;
 }
 
-.descrição {
+.descricao {
     color: aliceblue;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    display: block;
     row-gap: 2rem;
-
+    padding: 70px;
+    
 }
 
-.descrição p {
+.descricao p {
     font-size: 23px;
+    width: 50%;
+
 }
 
-.descrição h2 {
+.descricao h2 {
     color: aliceblue;
     font-size: 30px;
+    margin: 10px;
 
 }
 
@@ -102,12 +104,20 @@ body {
     display: flex;
     justify-content: center;
     gap: 5rem;
-    margin: 10px;
+    padding: 10px;
+}
+
+.qualidade h2{
+    padding: 5px;
+}
+
+.qualidade ul{
+    padding: 20px;
 }
 
 .soft {
     color: aliceblue;
-    font-size: 2rem;
+    font-size: 1.3rem;
 }
 
 .referencia {
@@ -127,8 +137,8 @@ body {
 
 }
 
-.nave a{
+.nave a {
     text-decoration: none;
-        color: aliceblue;
+    color: aliceblue;
 
 }
