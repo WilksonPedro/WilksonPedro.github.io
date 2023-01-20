@@ -15,11 +15,10 @@ body {
 }
 
 #sidebar {
-    width: 200px;
+    width: 500px;
     position: fixed;
     top: 0;
     left: 0;
-    botton:
     background-color: rgb(187, 140, 185);
     padding: 20px;
 }
@@ -67,6 +66,7 @@ body {
     justify-content: space-between;
     margin: 2rem 2rem;
     gap: 2rem;
+    
 }
 
 .descricao {
