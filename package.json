@@ -1,0 +1,23 @@
+{
+  "name": "wilksonpedro.github.io",
+  "version": "1.0.0",
+  "description": "Repositório de portfólios",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WilksonPedro/WilksonPedro.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WilksonPedro/WilksonPedro.github.io/issues"
+  },
+  "homepage": "https://github.com/WilksonPedro/WilksonPedro.github.io#readme",
+  "devDependencies": {
+    "jest": "^29.3.1"
+  }
+}
