@@ -19,7 +19,6 @@ body {
     position: fixed;
     top: 0;
     left: 0;
-    botton:
     background-color: rgb(187, 140, 185);
     padding: 20px;
 }
@@ -87,20 +86,6 @@ body {
     color: aliceblue;
     font-size: 30px;
     margin: 10px;
-
-}
-
-.img img {
-    border-radius: 50%;
-    padding: 2rem;
-    height: 350px;
-    width: 350px;
-    background: #FEAC5E;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
 
