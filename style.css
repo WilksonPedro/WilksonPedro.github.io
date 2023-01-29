@@ -14,15 +14,6 @@ body {
     background: black;
 }
 
-#sidebar {
-    width: 200px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    background-color: rgb(187, 140, 185);
-    padding: 20px;
-}
-
 #navegation {
     color: aliceblue;
     display: flex;
